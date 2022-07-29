@@ -12,6 +12,11 @@ ul li a{
     text-decoration: none;
 }
 
+div img{
+    display: block;
+    width: 100%;
+}
+
 .flex-container{
     display: flex;
     max-width: 992px;
@@ -75,15 +80,28 @@ header .menu{
 }
 
 #quem-somos{
-    
     text-align: justify;
     align-items: center;
     justify-content: space-between;
-    flex-flow: row wrap;
-    flex-direction: column;
-    background-color: blue;
 }
 
-.column{
-    min-width: 50%;
+#quem-somos h2{
+    font-size: 32px;
+    color: #122A57;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before{
+    content: " ";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122A57;
+    position: relative;
+}
+
+#quem-somos p{
+    margin-bottom: 10px;
+    width: 90%;
 }
