@@ -44,9 +44,15 @@ header .list-items{
 
 .list-items li a{
     display: flex;
-    color: #fff;
-    /*place-rouver: #122A57;*/
+    color: #fff;   
 }
+
+.list-items li a:hover{
+    text-decoration: underline;
+    color: orange; 
+}
+
+
 
 header .menu{
     justify-content: space-between;
@@ -82,6 +88,12 @@ header .menu{
     line-height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.btn:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+    background-color: #204c6b95;
 }
 /*Apresentação*/
 
@@ -173,6 +185,13 @@ header .menu{
     width: 80%;
     margin: auto;
 }
+
+.btn-servicos:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+    background-color: #204c6b95;
+}
+
 #planos{
     flex-direction: column;
     min-height: 100vh;
